@@ -1,0 +1,102 @@
+
+/*reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+body {
+	min-width: 320px;
+}
+html {
+	font-size: 16px;
+}
+/*fonts on*/
+@font-face {
+	font-family: "OpenSans-bold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold.woff") format("woff"), 
+	  url("../fonts/OpenSans-Bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "OpenSans-regular";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.woff") format("woff"), 
+	  url("../fonts/OpenSans-Regular.woff2") format("woff2");
+}
+/*header style*/
+
+.header {
+	width: 100%;
+	background: url("../images/football_767.jpg") 50% 10%;
+	-webkit-background-size: 140%;
+	     -o-background-size: 140%;
+	        background-size: 140%;
+	height: 550px; /*временно*/
+}
+.opacity_bg {
+	background: rgba(18, 17, 52, 0.9);
+	height: inherit;
+}
+.wrapper__logo {
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+.wrapper__logo > img {
+	display: block;
+	margin: auto;
+	width: 135px;
+}
+.wrapper__describe {
+	display: flex;
+	flex-wrap: wrap;
+	width: 87.6%;
+	max-width: 300px;
+	height: 285px;
+	margin: 0 auto;
+	padding-top: 22px;
+	align-content: center;
+	justify-content: space-between;
+	letter-spacing: 1.7px;
+}
+.wrapper__describe h1, h2 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font: bold 1.7rem "OpenSans-bold", "Arial", monospace;
+	font-stretch: ultra-expanded;
+	
+}
+.wrapper__describe h2 {
+	width: 78%;
+	margin-top: 15px; 
+	margin-left: 16%;
+}
+.button_common {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto 15px;
+	width: 87.5%;
+	max-width: 300px;
+	height: 35px;
+	background-color: #5e42b0;
+	border: none;
+	border-radius: 60px;
+}
+
+.button_common .bt_signature {
+	width: 30%;
+	font: 0.5rem "OpenSans-bold", "Arial", monospace;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+.button_common .bt_signature > span{
+	font-weight: bold;
+}
+.button_common svg {
+	width: 20px;
+	height: 23px;
+	fill: #ffffff;
+	margin-right: 8px;
+}
