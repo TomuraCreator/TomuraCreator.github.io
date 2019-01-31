@@ -12,6 +12,8 @@ html {
 	font-size: 16px;
 }
 /*fonts on*/
+
+
 @font-face {
 	font-family: "OpenSans-bold";
 	src: url("../fonts/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold.woff") format("woff"), 
@@ -63,7 +65,6 @@ html {
 	color: #ffffff;
 	font: bold 1.7rem "OpenSans-bold", "Arial", monospace;
 	font-stretch: ultra-expanded;
-	
 }
 .wrapper__describe h2 {
 	width: 78%;
@@ -89,7 +90,6 @@ html {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: left;
-	
 }
 .button_common .bt_signature > span{
 	font-weight: bold;
@@ -99,4 +99,15 @@ html {
 	height: 23px;
 	fill: #ffffff;
 	margin-right: 8px;
+}
+/* athlets block*/
+
+section.athlets {
+	height: 1000px;
+}
+section.athlets > h3 {
+	text-transform: uppercase;
+	color: #e7e7e7;
+	font: bold 3.0rem "OpenSans-bold", "Arial", monospace;
+	font-stretch: ultra-expanded;
 }
