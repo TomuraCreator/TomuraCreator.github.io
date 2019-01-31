@@ -86,12 +86,13 @@ html {
 
 .button_common .bt_signature {
 	width: 30%;
-	font: 0.5rem "OpenSans-bold", "Arial", monospace;
+	font: 0.5rem "OpenSans-regular", "Arial", monospace;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: left;
 }
 .button_common .bt_signature > span{
+	font: 0.5rem "OpenSans-bold", "Arial", monospace;
 	font-weight: bold;
 }
 .button_common svg {
@@ -106,8 +107,55 @@ section.athlets {
 	height: 1000px;
 }
 section.athlets > h3 {
+	width: 70%;
+	margin-left: 6.25%;
 	text-transform: uppercase;
 	color: #e7e7e7;
 	font: bold 3.0rem "OpenSans-bold", "Arial", monospace;
 	font-stretch: ultra-expanded;
+}
+section.athlets > img {
+	display: block;
+	margin: 0 auto;
+}
+.common__block {
+	width: 100%;
+	height: 215px;
+	padding-top: 25%;
+	padding-left: 6.25%;
+	padding-right: 6.25%;			
+}
+.block__connection {
+	margin-top: -60px;
+	background-color: #FAFAFA;
+}
+/*number with line*/
+div.number {
+	display: inline;
+	width: 15px;
+	height: 22px;
+}
+.number p {
+	width: 15px;
+	height: 17px;
+	font: bold 0.8rem "OpenSans-bold", "Arial", monospace;
+	font-stretch: ultra-expanded;
+}
+.number span {
+	display: block;
+	width: 15px;
+	height: 5px;
+	background-color: #5E42B0;
+}
+/*subttile block style*/
+.subtitle_name {
+	width: 100px;
+	display: inline;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font: bold 0.8rem "OpenSans-bold", "Arial", monospace;
+	color: #C1C1C1;
+}
+.subtitle_name + p {
+	padding-top: 25px;
 }
