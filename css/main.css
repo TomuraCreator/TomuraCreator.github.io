@@ -263,6 +263,55 @@ section.players > h3 {
 	font: bold  0.9rem 'OpenSans-light', 'Arial', monospace;
 	
 }
-
-
+/*footer block*/
+footer.footer {
+	background-image: url("../images/game_767.jpg");
+}
+.opacity_bg__footer {
+	padding-top: 100px;
+	
+}
+.opacity_bg > h5 {
+  font: bold 1.8rem 'OpenSans-bold', 'Arial', monospace;
+  font-stretch: ultra-expanded;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.opacity_bg > p {
+	font: 0.78rem 'OpenSans-light', 'Arial', monospace;
+  text-transform: uppercase;
+  color: #9b8ec1;
+  text-align: center;
+  padding-bottom: 76px;
+}
+.footer__logo {
+	width: 75px;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	height: 75px;
+	background-color: #6b4cc5;
+	-webkit-border-radius: 20%;
+	        border-radius: 20%;
+}
+.footer__logo > svg {
+	margin: auto;
+	width: 64%;
+	height: 64%;
+	fill:#ffffff;
+}
+.footer__logo_end > svg {
+	width: 42%;
+	padding-bottom: 5%;
+	display: block;
+  max-width: 265px;
+  fill: #ffffff;
+  margin: auto;
+}
+.wrapper_download_button {
+	padding-bottom: 17.7%;
+}
 
