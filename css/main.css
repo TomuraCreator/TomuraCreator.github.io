@@ -453,31 +453,33 @@ section.players {
 }
 section.players > h3 {
   width: 50%;
-  padding-top: 8px;
+  padding-left: 3%;
+  margin: 0;
+  margin-top: 10%;
 }
 .block__connection_pl {
+	width: 60%;
   padding-top: 5%;
+  padding-left: 3%;
   padding-bottom: 5%;
   background-color: #ffffff;
 }
 .growth_pl {
-  padding-bottom: 10%;
-  background-color: #090c35;
-}
-.number__growth_pl > span {
-  color: #5e42b0;
+	padding-left: 3%;
+  padding-bottom: 6%;
 }
 section.players picture {
   position: absolute;
-  top: 3%;
-  right: 0%;
+  top: -5%;
+  right: -1%;
   margin: 0;
   
 }
 .block__collaboration_pl {
   padding-top: 5%;
-  padding-left: 2%;
+  padding-left: 3%;
   padding-right: 40%;
   padding-bottom: 5%;
 }
 
+/*be active block*/
