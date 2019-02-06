@@ -35,7 +35,6 @@ html {
        -o-background-size: 140%;
           background-size: 140%;
 }
-/*@media*/
 .opacity_bg {
   height: inherit;
   background: rgba(18, 17, 52, .9);
@@ -47,15 +46,14 @@ html {
 }
 .wrapper__logo > svg {
   width: 42%;
-  max-width: 265px;
+  max-width: 201px;
   margin: auto;
-
-  fill: #fff;
+  fill: #ffffff;
 }
 .wrapper__describe {
   display: flex;
   width: 87.6%;
-  max-width: 300px;
+  max-width: 310px;
   height: 285px;
   margin: 0 auto;
   padding-top: 30px;
@@ -68,49 +66,46 @@ html {
   font: bold 1.7rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
 }
 .wrapper__describe h2 {
   width: 78%;
   margin-top: 15px;
   margin-left: 16%;
 }
-.button_common {
+button.button_common {
   display: flex;
   width: 87.5%;
   max-width: 300px;
-  height: 35px;
+  height: 22%;
   margin: 10px auto 15px;
   border: none;
   border-radius: 60px;
   background-color: #5e42b0;
-
   justify-content: center;
   align-items: center;
 }
 .button_common .bt_signature {
   width: 30%;
-  font: .5rem 'OpenSans-regular', 'Arial', monospace;
+  font: 0.5rem 'OpenSans-regular', 'Arial', monospace;
   text-align: left;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
 }
 .button_common .bt_signature > span {
-  font: .5rem 'OpenSans-bold', 'Arial', monospace;
+  font: 0.5rem 'OpenSans-bold', 'Arial', monospace;
   font-weight: bold;
 }
 .button_common svg {
-  width: 20px;
-  height: 23px;
-  margin-right: 8px;
+  width: 8%;
 
-  fill: #fff;
+  margin-right: 8px;
+  fill: #ffffff;
 }
 .wrapper_download_button {
   height: 170px;
   padding: 0;
 }
-
 /* athlets block*/
 
 section.athlets > h3 {
@@ -192,7 +187,7 @@ div.number {
   color: #fff;
 }
 .number__growth span::after {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /* players block*/
@@ -246,7 +241,7 @@ section.players img {
   width: 14px;
   margin: auto;
   font: bold .8rem 'OpenSans-bold', 'Arial', monospace;
-  color: #fff;
+  color: #ffffff;
 }
 .number__absolute_block > span::after {
   position: absolute;
@@ -293,7 +288,7 @@ footer.footer {
   font-stretch: ultra-expanded;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
 }
 .opacity_bg > p {
   padding-bottom: 60px;
@@ -316,7 +311,7 @@ footer.footer {
   width: 64%;
   height: 64%;
   margin: auto;
-  fill: #fff;
+  fill: #fffffff;
 }
 .footer__logo_end > svg {
   display: block;
@@ -324,10 +319,165 @@ footer.footer {
   max-width: 265px;
   margin: auto;
   padding-bottom: 5%;
-
-  fill: #fff;
+  fill: #ffffff;
 }
 /***********************media require************************************/
 
 @media (min-width: 641px) and (max-width: 960px) {
+	html {
+		font-size: 20px;
+	}
+	/* header block style */
+	.header {
+		background-image: url("../images/football_1280.jpg"); /*определить размеры бэкграунда*/
+		-webkit-background-size: 170%;
+      -o-background-size: 170%;
+    background-size: 170%;
+	}
+	.wrapper__describe {
+    width: 100%;
+    max-width: 960px;
+    height: contain;
+    padding-top: 0;
+    margin-top: 15.5%;
+    margin-bottom: 35.5%;
+  }
+  .wrapper__describe h1, h2 {
+    font: bold 310% 'OpenSans-bold', 'Arial', monospace;
+    letter-spacing: 4px;
+  }
+  .wrapper__describe h1 {
+  	padding-left: 10%;
+  }
+  .wrapper__describe h2 {
+  	margin-top: 0;
+  	margin-left: 25%;
+  	line-height: 125%;
+  }
+  .wrapper_download_button {
+    display: flex;
+    width: 92%;
+    max-width: 760px;
+    margin: 0 auto;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+  }
+  button.button_common {
+  	max-width: 310px;
+  	height: 43%;
+  	justify-content: flex-start;
+  }
+  .button_common .bt_signature {
+  	font: 0.7rem 'OpenSans-light', 'Arial', monospace;
+  }
+  .button_common .bt_signature > span {
+  	font-size: inherit;
+  }
+  .button_common svg {
+    width: 15%;
+    margin-left: 12%;
+    margin-right: 8%;
+  }
+  .button_common-right svg {
+  	margin-left: 17%;
+    margin-right: 8%;
+  }
+  .button_common .bt_signature {
+    width: 60%;
+  }
+	/* athlet block style */
+	section.athlets {
+		position: relative;
+	}
+	section.athlets > h3 {
+    width: 50%;
+    height: 80px;
+    margin: 0;
+    margin-top: 10%;
+    padding-left: 38%;
+  }
+  section.athlets .picture_block img, source {
+  	position: absolute;
+  	top: 3%;
+  	left: -22.5%;
+    margin: 0;
+  }  
+  .common__block {
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 38%;
 }
+  .common__block > p {
+    padding-top: 18px;
+  }
+  .block__connection {
+    margin-top: 0;
+  	padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #ffffff;
+  }
+
+  /*number with the bottom line*/
+  div.number {
+    position: relative;
+    width: 70%;
+    padding-top: 5px;
+  }
+  .number span {
+    position: absolute;
+    top: 12px;
+    }
+  .number span::after {
+  	top: 22px;
+    width: 19px;
+    height: 4px;
+  }
+
+  /*subttile block style*/
+  .subtitle_name {
+  display: inline;
+  margin-left: 25px;
+  } 
+  .block__collaboration, .block__growth {
+  padding-top: 4%;
+  padding-bottom: 6%;
+  }
+  .block__growth {
+  	padding-bottom: 2%;
+  }
+}
+/*players block style*/
+
+section.players {
+	position: relative;
+}
+section.players > h3 {
+  width: 50%;
+  padding-top: 8px;
+}
+.block__connection_pl {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #ffffff;
+}
+.growth_pl {
+  padding-bottom: 10%;
+  background-color: #090c35;
+}
+.number__growth_pl > span {
+  color: #5e42b0;
+}
+section.players picture {
+  position: absolute;
+  top: 3%;
+  right: 0%;
+  margin: 0;
+  
+}
+.block__collaboration_pl {
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 40%;
+  padding-bottom: 5%;
+}
+
