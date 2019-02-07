@@ -9,7 +9,7 @@ body {
   min-width: 320px;
 }
 html {
-  font-size: 16px;
+  font-size: 12.5px;
 }
 /*fonts on*/
 
@@ -57,13 +57,12 @@ html {
   height: 285px;
   margin: 0 auto;
   padding-top: 30px;
-  letter-spacing: 1.7px;
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
 }
 .wrapper__describe h1, h2 {
-  font: bold 1.7rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   text-transform: uppercase;
   color: #ffffff;
@@ -87,18 +86,17 @@ button.button_common {
 }
 .button_common .bt_signature {
   width: 30%;
-  font: 0.5rem 'OpenSans-regular', 'Arial', monospace;
+  font: 0.64rem 'OpenSans-regular', 'Arial', monospace;
   text-align: left;
   text-transform: uppercase;
   color: #ffffff;
 }
 .button_common .bt_signature > span {
-  font: 0.5rem 'OpenSans-bold', 'Arial', monospace;
+  font: 0.64rem 'OpenSans-bold', 'Arial', monospace;
   font-weight: bold;
 }
 .button_common svg {
   width: 8%;
-
   margin-right: 8px;
   fill: #ffffff;
 }
@@ -114,7 +112,7 @@ section.athlets > h3 {
   margin: 0 auto;
   padding-top: 10px;
   padding-left: 5px;
-  font: bold 3.0rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   text-transform: uppercase;
   color: #e7e7e7;
@@ -128,18 +126,18 @@ picture source, img {
 }
 .common__block {
   width: 100%;
-  padding-top: 80px;
   padding-right: 6.25%;
   padding-left: 6.25%;
 }
 .common__block > p {
   padding-top: 18px;
-  font: 1rem 'OpenSans-light', 'Arial', monospace;
+  font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
+  line-height: 18px; 
 }
 .block__connection {
   margin-top: -60px;
-  padding-top: 75px;
-  padding-bottom: 21%;
+  padding-top: 24%;
+  padding-bottom: 16%;
   background-color: #fafafa;
 }
 
@@ -151,7 +149,7 @@ div.number {
 .number span {
   position: absolute;
   top: 10px;
-  font: bold .8rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 1.12rem 'OpenSans-bold', 'Arial', monospace;
   letter-spacing: 1px;
 }
 .number span::after {
@@ -169,17 +167,17 @@ div.number {
 .subtitle_name {
   display: inline;
   margin-left: 25px;
-  font: bold 1.5rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 1.84rem 'OpenSans-bold', 'Arial', monospace;
   text-transform: uppercase;
   color: #c1c1c1;
 }
 .block__collaboration {
-  padding-top: 10%;
-  padding-bottom: 22%;
+  padding-top: 15%;
+  padding-bottom: 17%;
   background-color: #f5f4f9;
 }
 .block__growth {
-  padding-top: 15%;
+  padding-top: 14.5%;
   padding-bottom: 21%;
   background-color: #5e42b0;
 }
@@ -195,7 +193,7 @@ section.players > h3 {
   width: 90%;
   margin: 0 auto;
   padding-top: 8px;
-  font: bold 3.0rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   text-transform: uppercase;
   color: #e7e7e7;
@@ -217,8 +215,8 @@ section.players img {
   padding-top: 8px;
 }
 .block__collaboration_pl {
-  padding-top: 15%;
-  padding-bottom: 17%;
+  padding-top: 14.5%;
+  padding-bottom: 12%;
 }
 /*be active*/ /*find contact block*/ /*work it*/
 .wrapper__absolute {
@@ -240,7 +238,7 @@ section.players img {
   display: block;
   width: 14px;
   margin: auto;
-  font: bold .8rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 1.12rem 'OpenSans-bold', 'Arial', monospace;
   color: #ffffff;
 }
 .number__absolute_block > span::after {
@@ -261,8 +259,8 @@ section.players img {
 }
 .content__block > h4 {
   width: 100%;
-  padding-top: 6%;
-  font: bold 1.8rem 'OpenSans-bold', 'Arial', monospace;
+  padding-top: 7%;
+  font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -271,7 +269,7 @@ section.players img {
 .content__block > p {
   padding-top: 6%;
   padding-bottom: 27%;
-  font: 1rem 'OpenSans-light', 'Arial', monospace;
+  font: 1.18rem 'OpenSans-bold', 'Arial', monospace;
   line-height: 19px;
 }
 /*footer block*/
@@ -284,16 +282,18 @@ footer.footer {
 }
 .opacity_bg > h5 {
   margin: 0 auto;
-  font: bold 2.15rem 'OpenSans-bold', 'Arial', monospace;
+  font: bold 2.56rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
+  letter-spacing: 1.5px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 .opacity_bg > p {
   padding-bottom: 60px;
-  font: .935rem 'OpenSans-light', 'Arial', monospace;
+  font: 1.12rem 'OpenSans-light', 'Arial', monospace;
   text-align: center;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #9b8ec1;
 }
@@ -339,21 +339,22 @@ footer.footer {
     max-width: 960px;
     height: contain;
     padding-top: 0;
-    margin-top: 15.5%;
-    margin-bottom: 35.5%;
-  }
-  .wrapper__describe h1, h2 {
-    font: bold 310% 'OpenSans-bold', 'Arial', monospace;
-    letter-spacing: 4px;
+    margin-top: 16%;
+    margin-bottom: 35%;
   }
   .wrapper__describe h1 {
   	padding-left: 10%;
+  	letter-spacing: 3px;
+  	font: bold 3.2rem 'OpenSans-bold', 'Arial', monospace;
   }
   .wrapper__describe h2 {
-  	margin-top: 0;
-  	margin-left: 25%;
-  	line-height: 125%;
-  }
+    margin-top: 0;
+    margin-left: 25%;
+    font: bold 3.2rem 'OpenSans-bold', 'Arial', monospace;
+    line-height: 130%;
+    letter-spacing: 3px;
+}
+
   .wrapper_download_button {
     display: flex;
     width: 92%;
@@ -367,11 +368,8 @@ footer.footer {
   	height: 43%;
   	justify-content: flex-start;
   }
-  .button_common .bt_signature {
-  	font: 0.7rem 'OpenSans-light', 'Arial', monospace;
-  }
   .button_common .bt_signature > span {
-  	font-size: inherit;
+  	font: 0.7rem 'OpenSans-regular', 'Arial', monospace;
   }
   .button_common svg {
     width: 15%;
@@ -393,12 +391,13 @@ footer.footer {
     width: 50%;
     height: 80px;
     margin: 0;
-    margin-top: 10%;
+    margin-top: 7.5%;
+    margin-bottom: 2%;
     padding-left: 38%;
   }
   section.athlets .picture_block img, source {
   	position: absolute;
-  	top: 3%;
+  	top: 5%;
   	left: -22.5%;
     margin: 0;
   }  
@@ -406,9 +405,12 @@ footer.footer {
     width: 100%;
     padding-right: 0%;
     padding-left: 38%;
-}
+  }
   .common__block > p {
-    padding-top: 18px;
+  	padding-top: 5%;
+  	
+  	font: 0.8rem 'OpenSans-bold', 'Arial', monospace;
+  	line-height: 25px;
   }
   .block__connection {
     margin-top: 0;
@@ -423,8 +425,13 @@ footer.footer {
     width: 70%;
     padding-top: 5px;
   }
+  div.number h4 {
+  	font-size: 1.6rem;
+  	letter-spacing: 2px;
+  }
   .number span {
     position: absolute;
+    font-size: 0.9rem;
     top: 12px;
     }
   .number span::after {
@@ -439,47 +446,116 @@ footer.footer {
   margin-left: 25px;
   } 
   .block__collaboration, .block__growth {
-  padding-top: 4%;
-  padding-bottom: 6%;
+  padding-top: 3%;
+  padding-bottom: 5%;
   }
   .block__growth {
-  	padding-bottom: 2%;
+  	padding-bottom: 5%;
   }
-}
-/*players block style*/
+  /*players block style*/
 
-section.players {
-	position: relative;
-}
-section.players > h3 {
-  width: 50%;
-  padding-left: 3%;
-  margin: 0;
-  margin-top: 10%;
-}
-.block__connection_pl {
-	width: 60%;
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-bottom: 5%;
-  background-color: #ffffff;
-}
-.growth_pl {
-	padding-left: 3%;
-  padding-bottom: 6%;
-}
-section.players picture {
-  position: absolute;
-  top: -5%;
-  right: -1%;
-  margin: 0;
+  section.players {
+	  position: relative;
+  }
+  section.players > h3 {
+    width: 50%;
+    padding-left: 3%;
+    margin: 0;
+    margin-top: 7%;
+  }
+  .block__connection_pl {
+	  width: 60%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    background-color: #ffffff;
+  }
+  .growth_pl {
+	  padding-left: 3%;
+    padding-bottom: 5%;
+  }
+  .growth_pl p {
+  	padding-top: 3%;
+  }
+  section.players picture {
+    position: absolute;
+    top: -3%;
+    right: -1%;
+    margin: 0;
+  }
+  .block__collaboration_pl {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 40%;
+    padding-bottom: 5%;
+    background-color: #f5f4f9;
+  }
+
+  /*be active block*/
   
-}
-.block__collaboration_pl {
-  padding-top: 5%;
-  padding-left: 3%;
-  padding-right: 40%;
-  padding-bottom: 5%;
+  .wrapper__absolute source, img {
+  	max-width: 103%;
+  }
+
+  .number__absolute_block {
+  bottom: -6%;
+  left: 3.3%;
+  width: 114px;
+  height: 114px;
+  }
+  .number__absolute_block > span {
+  display: block;
+  width: 25px;
+  font: bold 1.2rem 'OpenSans-bold', 'Arial', monospace;
+  }
+  .number__absolute_block > span::after {
+  width: 24px;
+  }
+  .content__block {
+  width: 95%;
+  margin: 0 auto;
+  }
+  .content__block > h4 {
+  padding-top: 8%;
+  font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
+  letter-spacing: 0;
+  }
+  .content__block > p {
+  padding-top: 2%;
+  padding-bottom: 13%;
+  font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
+  line-height: 30px;
+  }
+  /*footer block*/
+  footer.footer {
+  background-image: url('../images/game_1280.jpg');
+  }
+
+  .opacity_bg__footer {
+  padding-top: 15%;
+  }
+  .opacity_bg > h5 {
+    margin: 0 auto;
+    font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
+    letter-spacing: 4px;
+  }
+  .opacity_bg > p {
+    padding-bottom: 38%;
+    font: 1.8rem 'OpenSans-light', 'Arial', monospace;
+    letter-spacing: 0px;
+  }
+  .footer__logo {
+    width: 135px;
+    height: 135px;
+    margin-bottom: 55px;
+  }
+   .footer__logo_end svg {
+   	margin-top: -30px;
+   	width: 27%;
+   }
+   .footer__logo svg {
+   	    fill: #ffffff;
+   }
 }
 
-/*be active block*/
+/***********************************responsive 961 to 960 px************************************************************************/
