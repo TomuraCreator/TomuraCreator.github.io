@@ -251,6 +251,7 @@ section.players img {
 }
 .wrapper__absolute > img {
   max-width: 100%;
+  
 }
 .content__block {
   width: 90%;
@@ -785,6 +786,7 @@ footer.footer {
   	padding-left: 19%;
   }
   .text__find-contact > p {
+  	padding-top: 7%;
   	padding-left: 19%;
   }
   .text__work-it > h4 {
