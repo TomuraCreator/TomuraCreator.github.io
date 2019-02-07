@@ -279,7 +279,7 @@ footer.footer {
 .opacity_bg__footer {
   padding-top: 95px;
 }
-.opacity_bg > h5 {
+.wrapper_footer_subtitle > h5 {
   margin: 0 auto;
   font: bold 2.56rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
@@ -288,7 +288,7 @@ footer.footer {
   text-transform: uppercase;
   color: #ffffff;
 }
-.opacity_bg > p {
+.wrapper_footer_subtitle > p {
   padding-bottom: 60px;
   font: 1.12rem 'OpenSans-light', 'Arial', monospace;
   text-align: center;
@@ -534,16 +534,15 @@ footer.footer {
             background-size: 300%;
     background-repeat: no-repeat;
   }
-
   .opacity_bg__footer {
     padding-top: 15%;
   }
-  .opacity_bg > h5 {
+  .wrapper_footer_subtitle > h5 {
     margin: 0 auto;
     font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 4px;
   }
-  .opacity_bg > p {
+  .wrapper_footer_subtitle > p {
     margin-bottom: 35%;
     font: 1.8rem 'OpenSans-light', 'Arial', monospace;
     letter-spacing: 0px;
@@ -567,6 +566,11 @@ footer.footer {
 @media (min-width: 961px) {
 	html {
 		font-size: 22.5px;
+	}
+	body {
+		margin: 0 auto;
+		min-width: 1730px;
+		max-width: 2000px;
 	}
 	/* header block style */
 	header.header {
@@ -596,9 +600,6 @@ footer.footer {
     max-width: 700px;
     height: 195px;
     padding-top: -20px;
-  }
-  button.button_common:first-child {
-  	margin-left: 0px;
   }
   .button_common .bt_signature > span {
   	font-size: 0.622222rem;
@@ -671,10 +672,11 @@ footer.footer {
 
   section.players > h3 {
     width: 50%;
-    padding-left: 9%;
     margin-top: 4%;
+    padding-left: 9%;
     font-size: 3.5555555555rem;
   }
+
   section.players picture {
     top: -6%;
     right: 6.4%;
@@ -718,12 +720,13 @@ footer.footer {
   	overflow: hidden;
   }
   .number__absolute_block {
-  	padding: absolute;
-    bottom: calc(50% - 77.5px);
+    bottom: calc(60% - 77.5px);
     left: calc(50% - 77.5px);
     width: 155px;
     height: 155px;
+    padding: absolute;
   }
+
   .number__absolute_block > span {
     display: block;
     width: 25px;
@@ -754,71 +757,103 @@ footer.footer {
   	position: static;
   	overflow: hidden;
   }
-
   .content__block {
     width: 50%;
   }
   .content__block > h4 {
-  	width: 70%;
-    padding-top: 8%;
+    width: 90%;
+    padding-top: 22%;
+    padding-left: 13%;
     font-size: 3.5555555rem;
     letter-spacing: 0;
   }
+
   .number_work_it {
   	position: absolute;
   }
-
-
-
-
-
-
   .content__block > p {
-  	width: 50%;
-    padding-top: 2%;
-    padding-bottom: 13%;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 0;
+    padding-left: 13%;
     font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
     line-height: 30px;
   }
 
+  .text__find-contact > h4 {
+    margin-top: 4%;
+  	padding-left: 19%;
+  }
+  .text__find-contact > p {
+  	padding-left: 19%;
+  }
+  .text__work-it > h4 {
+  	padding-top: 25%;
+  }
 
 
   /*footer block*/
   footer.footer {
     background-image: url('../images/game_1920.jpg');
-    background-position: center;
-    -webkit-background-size: 300%;
-         -o-background-size: 300%;
-            background-size: 300%;
     background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 200%;
+       -o-background-size: 200%;
+          background-size: 200%;
   }
+
   .wrapper__absolute {
   	font-size: 0;
   }
-
   .opacity_bg__footer {
     padding-top: 15%;
   }
-  .opacity_bg > h5 {
+
+  .footer__wrapper_logo {
+    display: flex;
+    width: 47%;
     margin: 0 auto;
-    font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+  }
+  .wrapper_footer_subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16%;
+    margin-left: 34px;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper_footer_subtitle > h5 {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-top: -5px;
+    font-size: 3.5555555rem;
     letter-spacing: 4px;
   }
-  .opacity_bg > p {
-    margin-bottom: 35%;
-    font: 1.8rem 'OpenSans-light', 'Arial', monospace;
-    letter-spacing: 0px;
-  }
+  .wrapper_footer_subtitle > p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3333333rem;
+    letter-spacing: 0;
+    }
+
   .footer__logo {
     width: 135px;
     height: 135px;
-    margin-bottom: 55px;
+    margin: 0;
   }
-   .footer__logo_end svg {
-   	margin-top: -30px;
-   	width: 27%;
-   }
-   .footer__logo svg {
-   	 fill: #ffffff;
-   }
+  .footer__logo_end {
+    margin-top: 5%;
+  }
+
+  .footer__logo_end svg {
+    width: 27%;
+    margin-top: 0;
+}
+
 }
