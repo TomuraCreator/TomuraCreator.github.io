@@ -675,8 +675,12 @@ footer.footer {
     margin-top: 4%;
     font-size: 3.5555555555rem;
   }
+  section.players picture {
+    top: -6%;
+    right: 6.4%;
+  }
   .block__connection_pl {
-	  width: 50%;
+  	padding-right: 50%;
     padding-top: 4.1%;
     padding-left: 9.5%;
     padding-bottom: 2%;
@@ -685,63 +689,100 @@ footer.footer {
   	padding-top: 3%;
   }
   .block__collaboration_pl {
+  	padding-right: 50%;
     padding-top: 3%;
     padding-left: 9.5%;
-    padding-bottom: 4%;
+    padding-bottom: 4.2%;
   }
   .block__collaboration_pl > p {
   	padding-top: 3%;
   }
   .growth_pl {
+  	padding-right: 50%;
   	padding-top: 2.5%;
 	  padding-left: 9.5%;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
   }
   .growth_pl p {
   	padding-top: 1%;
   }
-  section.players picture {
-    position: absolute;
-    top: -6%;
-    right: 6.4%;
-    margin: 0;
-  }
 
   /*be active block*/
-  
-  .wrapper__absolute source, img {
-  	max-width: 103%;
+  .block__be_active {
+  	display: flex;
+    position: relative;
   }
-
+  .be_active__image {
+  	position: static;
+  	max-width: 50%;
+  	overflow: hidden;
+  }
   .number__absolute_block {
-    bottom: -6%;
-    left: 3.3%;
-    width: 114px;
-    height: 114px;
+  	padding: absolute;
+    bottom: calc(50% - 77.5px);
+    left: calc(50% - 77.5px);
+    width: 155px;
+    height: 155px;
   }
   .number__absolute_block > span {
     display: block;
     width: 25px;
-    font: bold 1.2rem 'OpenSans-bold', 'Arial', monospace;
+    font-size: 1.066666666666666rem;
   }
   .number__absolute_block > span::after {
-    width: 24px;
+    width: 27px;
+    height: 5px;
+  } 
+  .block__find_contact {
+  	display: flex;
+  	position: relative;
+  	-webkit-flex-direction: row-reverse;
+  	    -ms-flex-direction: row-reverse;
+  	        flex-direction: row-reverse;
   }
+  .find_contact_image {
+  	width: 50%;
+  	position: static;
+  	overflow: hidden;
+  }
+  .work_it_contact {
+  	display: flex;
+  	position: relative;
+  }
+  .work_it_image {
+  	width: 50%;
+  	position: static;
+  	overflow: hidden;
+  }
+
   .content__block {
-    width: 95%;
-    margin: 0 auto;
+    width: 50%;
   }
   .content__block > h4 {
+  	width: 70%;
     padding-top: 8%;
-    font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
+    font-size: 3.5555555rem;
     letter-spacing: 0;
   }
+  .number_work_it {
+  	position: absolute;
+  }
+
+
+
+
+
+
   .content__block > p {
+  	width: 50%;
     padding-top: 2%;
     padding-bottom: 13%;
     font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
     line-height: 30px;
   }
+
+
+
   /*footer block*/
   footer.footer {
     background-image: url('../images/game_1920.jpg');
@@ -750,6 +791,9 @@ footer.footer {
          -o-background-size: 300%;
             background-size: 300%;
     background-repeat: no-repeat;
+  }
+  .wrapper__absolute {
+  	font-size: 0;
   }
 
   .opacity_bg__footer {
