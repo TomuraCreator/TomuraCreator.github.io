@@ -600,59 +600,37 @@ footer.footer {
   button.button_common:first-child {
   	margin-left: 0px;
   }
-  button.button_common {
-  	max-width: 310px;
-  	height: 43%;
-  	justify-content: flex-start;
-  }
   .button_common .bt_signature > span {
-  	font: 0.7rem 'OpenSans-regular', 'Arial', monospace;
-  }
-  .button_common svg {
-    width: 15%;
-    margin-left: 12%;
-    margin-right: 8%;
-  }
-  .button_common-right svg {
-  	margin-left: 17%;
-    margin-right: 8%;
-  }
-  .button_common .bt_signature {
-    width: 60%;
+  	font-size: 0.622222rem;
   }
 	/* athlet block style */
 	section.athlets {
 		position: relative;
 	}
 	section.athlets > h3 {
-    width: 50%;
-    height: 80px;
-    margin: 0;
-    margin-top: 7.5%;
+    margin-top: 4%;
     margin-bottom: 2%;
-    padding-left: 38%;
+    padding-left: 52.5%;
+    font-size: 3.5555555555rem;
   }
   section.athlets .picture_block img, source {
   	position: absolute;
-  	top: 5%;
-  	left: -22.5%;
-    margin: 0;
+  	top: -5%;
+  	left: 20%;
   }  
   .common__block {
     width: 100%;
-    padding-right: 0%;
-    padding-left: 38%;
+    padding-left: 52.3%;
   }
   .common__block > p {
-  	padding-top: 5%;
-  	
-  	font: 0.8rem 'OpenSans-bold', 'Arial', monospace;
+  	padding-top: 1.5%;
+  	font-size: 0.8888888888888rem;
   	line-height: 25px;
   }
   .block__connection {
     margin-top: 0;
-  	padding-top: 5%;
-    padding-bottom: 5%;
+  	padding-top: 3.9%;
+    padding-bottom: 3%;
     background-color: #ffffff;
   }
 
@@ -668,64 +646,65 @@ footer.footer {
   }
   .number span {
     position: absolute;
-    font-size: 0.9rem;
-    top: 12px;
+    font-size: 0.8rem;
+    top: 15px;
     }
   .number span::after {
   	top: 22px;
-    width: 19px;
+    width: 21px;
     height: 4px;
   }
 
   /*subttile block style*/
   .subtitle_name {
-  display: inline;
-  margin-left: 25px;
+  margin-left: 28px;
   } 
-  .block__collaboration, .block__growth {
-  padding-top: 3%;
-  padding-bottom: 5%;
+  .block__collaboration {
+  padding-top: 2%;
+  padding-bottom: 3.5%;
   }
   .block__growth {
-  	padding-bottom: 5%;
+  	padding-top: 2.2%;
+  	padding-bottom: 3%;
   }
   /*players block style*/
 
-  section.players {
-	  position: relative;
-  }
   section.players > h3 {
     width: 50%;
-    padding-left: 3%;
-    margin: 0;
-    margin-top: 7%;
+    padding-left: 9%;
+    margin-top: 4%;
+    font-size: 3.5555555555rem;
   }
   .block__connection_pl {
-	  width: 60%;
-    padding-top: 3%;
-    padding-left: 3%;
-    padding-bottom: 5%;
-    background-color: #ffffff;
+	  width: 50%;
+    padding-top: 4.1%;
+    padding-left: 9.5%;
+    padding-bottom: 2%;
   }
-  .growth_pl {
-	  padding-left: 3%;
-    padding-bottom: 5%;
-  }
-  .growth_pl p {
+  .block__connection_pl > p {
   	padding-top: 3%;
-  }
-  section.players picture {
-    position: absolute;
-    top: -3%;
-    right: -1%;
-    margin: 0;
   }
   .block__collaboration_pl {
     padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 40%;
-    padding-bottom: 5%;
-    background-color: #f5f4f9;
+    padding-left: 9.5%;
+    padding-bottom: 4%;
+  }
+  .block__collaboration_pl > p {
+  	padding-top: 3%;
+  }
+  .growth_pl {
+  	padding-top: 2.5%;
+	  padding-left: 9.5%;
+    padding-bottom: 3%;
+  }
+  .growth_pl p {
+  	padding-top: 1%;
+  }
+  section.players picture {
+    position: absolute;
+    top: -6%;
+    right: 6.4%;
+    margin: 0;
   }
 
   /*be active block*/
