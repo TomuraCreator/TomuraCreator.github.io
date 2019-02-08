@@ -262,7 +262,7 @@ p.block__growth_pl_text {
   width: 90%;
   margin: 0 auto;
 }
-.content__block > h4 {
+h4.subtitle_content_block {
   width: 100%;
   padding-top: 7%;
   font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
@@ -271,22 +271,21 @@ p.block__growth_pl_text {
   text-transform: uppercase;
   color: #e7e7e7;
 }
-.content__block > p {
-  padding-top: 6%;
-  padding-bottom: 27%;
-  font: 1.18rem 'OpenSans-bold', 'Arial', monospace;
+p.text__content_block {
+  margin-top: 6%;
+  margin-bottom: 27%;
+  font: 1.18rem 'OpenSans-light', 'Arial', monospace;
   line-height: 19px;
 }
-/*footer block*/
+/************************** footer block *****************************/
+
+
 footer.footer {
   background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/game_767.jpg) 50% 10% no-repeat;
   background-size: cover, 140%;
+  padding-top: 29%;
 }
-
-.opacity_bg__footer {
-  padding-top: 95px;
-}
-.wrapper_footer_subtitle > h5 {
+h5.footer_subtitle__head {
   margin: 0 auto;
   font: bold 2.56rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
@@ -295,8 +294,8 @@ footer.footer {
   text-transform: uppercase;
   color: #ffffff;
 }
-.wrapper_footer_subtitle > p {
-  padding-bottom: 60px;
+p.footer_subtitle__text {
+  margin-bottom: 80px;
   font: 1.12rem 'OpenSans-light', 'Arial', monospace;
   text-align: center;
   letter-spacing: 1px;
@@ -313,13 +312,16 @@ footer.footer {
           border-radius: 20%;
   background-color: #6b4cc5;
 }
-.footer__logo > svg {
+.footer__logo_end {
+	margin-top: 25%;
+}
+svg.logo__footer_svg {
   width: 64%;
   height: 64%;
   margin: auto;
   fill: #ffffff;
 }
-.footer__logo_end > svg {
+svg.footer__logo_end_svg {
   display: block;
   width: 42%;
   max-width: 265px;
@@ -521,12 +523,12 @@ footer.footer {
     width: 95%;
     margin: 0 auto;
   }
-  .content__block > h4 {
+  h4.subtitle_content_block {
     padding-top: 8%;
     font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 0;
   }
-  .content__block > p {
+  p.text__content_block {
     padding-top: 2%;
     padding-bottom: 13%;
     font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
@@ -544,12 +546,12 @@ footer.footer {
   .opacity_bg__footer {
     padding-top: 15%;
   }
-  .wrapper_footer_subtitle > h5 {
+  h5.footer_subtitle__head {
     margin: 0 auto;
     font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 4px;
   }
-  .wrapper_footer_subtitle > p {
+  p.footer_subtitle__text {
     margin-bottom: 35%;
     font: 1.8rem 'OpenSans-light', 'Arial', monospace;
     letter-spacing: 0px;
@@ -559,7 +561,7 @@ footer.footer {
     height: 135px;
     margin-bottom: 55px;
   }
-   .footer__logo_end svg {
+  svg.footer__logo_end_svg {
    	margin-top: -30px;
    	width: 27%;
    }
@@ -766,23 +768,22 @@ footer.footer {
   .content__block {
     width: 50%;
   }
-  .content__block > h4 {
+  h4.subtitle_content_block {
     width: 90%;
     padding-top: 22%;
     padding-left: 13%;
     font-size: 3.5555555rem;
     letter-spacing: 0;
   }
-
   .number_work_it {
   	position: absolute;
   }
-  .content__block > p {
+  p.text__content_block {
     width: 90%;
-    padding-top: 10%;
-    padding-bottom: 0;
-    padding-left: 13%;
-    font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-left: 13%;
+    font: 1.2rem 'OpenSans-light', 'Arial', monospace;
     line-height: 30px;
   }
 
@@ -832,7 +833,7 @@ footer.footer {
     align-items: flex-start;
   }
 
-  .wrapper_footer_subtitle > h5 {
+  h5.footer_subtitle__head {
     display: block;
     width: 100%;
     margin: 0;
@@ -840,7 +841,7 @@ footer.footer {
     font-size: 3.5555555rem;
     letter-spacing: 4px;
   }
-  .wrapper_footer_subtitle > p {
+  p.footer_subtitle__text {
     margin: 0;
     padding: 0;
     font-size: 1.3333333rem;
@@ -856,11 +857,10 @@ footer.footer {
     margin-top: 5%;
   }
 
-  .footer__logo_end svg {
+  svg.footer__logo_end_svg {
     width: 27%;
     margin-top: 0;
-}
-
+  }
 }
 
 
