@@ -103,7 +103,7 @@ svg.image_button_svg {
 }
 /* athlets block*/
 
-section.athlets .title__athlets {
+h3.title__athlets {
   width: 90%;
   height: 80px;
   margin: 0 auto;
@@ -374,7 +374,7 @@ svg.footer__logo_end_svg {
   	height: 70px;
   	justify-content: flex-start;
   }
-  .button_common .bt_signature > span {
+  .bt_signature > span {
   	font: 0.7rem 'OpenSans-regular', 'Arial', monospace;
   }
   svg.image_button_svg {
@@ -382,11 +382,11 @@ svg.footer__logo_end_svg {
     margin-left: 12%;
     margin-right: 8%;
   }
-  .button_common-right svg.image_button_svg {
+  .button_common-right .image_button_svg {
   	margin-left: 17%;
     margin-right: 8%;
   }
-  .button_common .bt_signature {
+  .bt_signature {
     width: 60%;
   }
   .block__empty_header {
@@ -400,13 +400,13 @@ svg.footer__logo_end_svg {
     width: 50%;
     height: 80px;
     margin: 0;
-    margin-top: 7.5%;
-    margin-bottom: 2%;
+    margin-top: 6%;
+    margin-bottom: 3%;
     padding-left: 38%;
   }
-  section.athlets .picture_block img, source {
+  .picture_block img, source {
   	position: absolute;
-  	top: 14%;
+  	top: 7%;
   	left: -8.5em;
     margin: 0;
   }  
@@ -615,7 +615,7 @@ svg.footer__logo_end_svg {
     padding-left: 52.5%;
     font-size: 3.5555555555rem;
   }
-  section.athlets .picture_block img, source {
+  .picture_block img, source {
   	position: absolute;
   	top: -5%;
   	left: 20%;
@@ -725,9 +725,7 @@ svg.footer__logo_end_svg {
     left: calc(50% - 77.5px);
     width: 155px;
     height: 155px;
-    padding: absolute;
   }
-
   .number__absolute_block > span {
     display: block;
     width: 25px;
@@ -849,7 +847,6 @@ svg.footer__logo_end_svg {
   .footer__logo_end {
     margin-top: 5%;
   }
-
   svg.footer__logo_end_svg {
     width: 27%;
     margin-top: 0;
