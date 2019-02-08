@@ -31,8 +31,7 @@ html {
 header.header {
   width: 100%;
   background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/football_767.jpg) 50% 10% no-repeat;
-  background-size: cover;
-
+  background-size: cover, 140%;
 }
 .wrapper__logo {
   display: flex;
@@ -51,7 +50,7 @@ header.header {
   width: 87.6%;
   max-width: 310px;
   margin: 0 auto;
-  margin-bottom: 27%;
+  margin-bottom: 26%;
   margin-top: 30px;
   flex-wrap: wrap;
 }
@@ -66,20 +65,19 @@ h1.header__main_title {
 	display: block;
 	margin-top: 4.5%;
 	margin-left: 15.5%;
-	line-height: 35px;
+	line-height: 125%;
 }
 button.button_common {
   display: flex;
   width: 87.5%;
   max-width: 300px;
-  height: 30px;
+  height: 35px;
   margin: 10px auto 15px;
   border: none;
   border-radius: 60px;
   background-color: #5e42b0;
   justify-content: center;
   align-items: center;
-  margin-bottom: ;
 }
 .button_common .bt_signature {
   width: 30%;
@@ -90,17 +88,22 @@ button.button_common {
   
 }
 .in_button_span_head {
+	display: block;
   font: 0.64rem 'OpenSans-bold', 'Arial', monospace;
   font-weight: bold;
 }
-.button_common svg {
+svg.image_button_svg {
   width: 8%;
   margin-right: 8px;
   fill: #ffffff;
 }
+.block__empty_header {
+	width: 100%;
+	height: 70px;
+}
 /* athlets block*/
 
-section.athlets > h3 {
+section.athlets .title__athlets {
   width: 90%;
   height: 80px;
   margin: 0 auto;
@@ -123,10 +126,11 @@ picture source, img {
   padding-right: 6.25%;
   padding-left: 6.25%;
 }
-.common__block > p {
+p.common__block_text {
   padding-top: 18px;
-  font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
-  line-height: 18px; 
+  font: 1.2rem 'OpenSans-light', 'Arial', monospace;
+  line-height: 118%; 
+  letter-spacing: 1px;
 }
 .block__connection {
   margin-top: -60px;
@@ -134,11 +138,31 @@ picture source, img {
   padding-bottom: 16%;
   background-color: #fafafa;
 }
-
-/*number with the bottom line*/
+.block__collaboration {
+  padding-top: 15%;
+  padding-bottom: 18%;
+  background-color: #f5f4f9;
+}
+.block__growth {
+  padding-top: 15%;
+  padding-bottom: 18%;
+  background-color: #5e42b0;
+}
+p.block__growth_text {
+	letter-spacing: 1.5px;
+}
+                    /*number with the bottom line*/
 div.number {
   position: relative;
   padding-top: 5px;
+}
+.subtitle_name {
+  display: inline;
+  margin-left: 25px;
+  font: bold 1.84rem 'OpenSans-bold', 'Arial', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #c1c1c1;
 }
 .number span {
   position: absolute;
@@ -156,34 +180,19 @@ div.number {
   border-radius: 1px;
   background-color: #5e42b0;
 }
-
-/*subttile block style*/
-.subtitle_name {
-  display: inline;
-  margin-left: 25px;
-  font: bold 1.84rem 'OpenSans-bold', 'Arial', monospace;
-  text-transform: uppercase;
-  color: #c1c1c1;
-}
-.block__collaboration {
-  padding-top: 15%;
-  padding-bottom: 17%;
-  background-color: #f5f4f9;
-}
-.block__growth {
-  padding-top: 14.5%;
-  padding-bottom: 21%;
-  background-color: #5e42b0;
-}
-.block__growth > p {
-  color: #fff;
+p.block__growth_text {
+  color: #ffffff;
 }
 .number__growth span::after {
   background-color: #ffffff;
 }
+.number__growth_pl > span {
+  color: #5e42b0;
+}
+
 
 /* players block*/
-section.players > h3 {
+h3.title__players {
   width: 90%;
   margin: 0 auto;
   padding-top: 8px;
@@ -192,27 +201,28 @@ section.players > h3 {
   text-transform: uppercase;
   color: #e7e7e7;
 }
+picture.picture_players img {
+	padding-top: 5px;
+}
 .block__connection_pl {
   margin-top: -30px;
-  padding-top: 75px;
+  padding-top: 22.5%;
   padding-bottom: 16%;
   background-color: #fafafa;
 }
-.growth_pl {
-  padding-bottom: 10%;
-  background-color: #090c35;
-}
-.number__growth_pl > span {
-  color: #5e42b0;
-}
-section.players img {
-  padding-top: 8px;
-}
 .block__collaboration_pl {
-  padding-top: 14.5%;
+  padding-top: 16%;
   padding-bottom: 12%;
 }
-/*be active*/ /*find contact block*/ /*work it*/
+.growth_pl {
+  padding-bottom: 11%;
+  background-color: #090c35;
+}
+p.block__growth_pl_text {
+	color: #ffffff;
+}
+
+/***************  be active  /////  find contact /////  block work it  *****************/
 .wrapper__absolute {
   position: relative;
 }
@@ -269,7 +279,8 @@ section.players img {
 }
 /*footer block*/
 footer.footer {
-  background-image: url('../images/game_767.jpg');
+  background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/game_767.jpg) 50% 10% no-repeat;
+  background-size: cover, 140%;
 }
 
 .opacity_bg__footer {
@@ -316,6 +327,7 @@ footer.footer {
   padding-bottom: 5%;
   fill: #ffffff;
 }
+
 /***********************media require************************************/
 
 @media (min-width: 641px) {
@@ -323,11 +335,10 @@ footer.footer {
 		font-size: 20px;
 	}
 	/* header block style */
-	.header {
-		background-image: url("../images/football_1280.jpg");
-		-webkit-background-size: 170%;
-      -o-background-size: 170%;
-    background-size: 170%;
+	header.header {
+		width: 100%;
+    background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/football_1280.jpg) 50% 10% no-repeat;
+    background-size: cover, 140%;
 	}
 	.wrapper__describe {
     width: 100%;
@@ -401,7 +412,7 @@ footer.footer {
     padding-right: 0%;
     padding-left: 38%;
   }
-  .common__block > p {
+  p.common__block_text {
   	padding-top: 5%;
   	
   	font: 0.8rem 'OpenSans-bold', 'Arial', monospace;
@@ -452,7 +463,7 @@ footer.footer {
   section.players {
 	  position: relative;
   }
-  section.players > h3 {
+  h3.title__players {
     width: 50%;
     padding-left: 3%;
     margin: 0;
@@ -570,10 +581,9 @@ footer.footer {
 	}
 	/* header block style */
 	header.header {
-		background-image: url("../images/football_1920.jpg");
-		-webkit-background-size: 120%;
-      -o-background-size: 120%;
-    background-size: 120%;
+		width: 100%;
+    background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/football_1920.jpg) 50% 10% no-repeat;
+    background-size: cover, 140%;
 	}
 	.wrapper__describe {
     max-width: 1920px;
@@ -619,7 +629,7 @@ footer.footer {
     width: 100%;
     padding-left: 52.3%;
   }
-  .common__block > p {
+  p.common__block_text {
   	padding-top: 1.5%;
   	font-size: 0.8888888888888rem;
   	line-height: 25px;
@@ -666,7 +676,7 @@ footer.footer {
   }
   /*players block style*/
 
-  section.players > h3 {
+  h3.title__players {
     width: 50%;
     margin-top: 4%;
     padding-left: 9%;
@@ -852,3 +862,5 @@ footer.footer {
 }
 
 }
+
+
