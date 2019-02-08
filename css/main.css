@@ -813,10 +813,8 @@ footer.footer {
 
   .footer__wrapper_logo {
     display: flex;
-    width: 47%;
+    width: 55%;
     margin: 0 auto;
-    flex-shrink: 0;
-    flex-grow: 0;
     flex-wrap: wrap;
   }
   .wrapper_footer_subtitle {
