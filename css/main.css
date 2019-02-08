@@ -28,60 +28,58 @@ html {
 }
 /*header style*/
 
-.header {
+header.header {
   width: 100%;
-  background: url('../images/football_767.jpg') 50% 10%;
-  -webkit-background-size: 140%;
-       -o-background-size: 140%;
-          background-size: 140%;
-}
-.opacity_bg {
-  background: rgba(18, 17, 52, .9);
+  background: linear-gradient(rgba(18, 17, 52, 0.9), rgba(18, 17, 52, 0.9)), url(../images/football_767.jpg) 50% 10% no-repeat;
+  background-size: cover;
+
 }
 .wrapper__logo {
   display: flex;
   width: 100%;
-  height: 100px;
+  margin-bottom: 30%;
 }
-.wrapper__logo > svg {
+.first_page_logo_svg {
   width: 42%;
+  height: 95px;
   max-width: 201px;
-  margin: auto;
+  margin: 0 auto;
   fill: #ffffff;
 }
 .wrapper__describe {
   display: flex;
   width: 87.6%;
   max-width: 310px;
-  height: 285px;
   margin: 0 auto;
-  padding-top: 30px;
+  margin-bottom: 27%;
+  margin-top: 30px;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
 }
-.wrapper__describe h1, h2 {
+h1.header__main_title {
   font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   text-transform: uppercase;
   color: #ffffff;
+  letter-spacing: 1.5px;
 }
-.wrapper__describe h2 {
-  width: 78%;
-  margin-top: 15px;
-  margin-left: 16%;
+.in_letter_m_logo {
+	display: block;
+	margin-top: 4.5%;
+	margin-left: 15.5%;
+	line-height: 35px;
 }
 button.button_common {
   display: flex;
   width: 87.5%;
   max-width: 300px;
-  height: 22%;
+  height: 30px;
   margin: 10px auto 15px;
   border: none;
   border-radius: 60px;
   background-color: #5e42b0;
   justify-content: center;
   align-items: center;
+  margin-bottom: ;
 }
 .button_common .bt_signature {
   width: 30%;
@@ -89,8 +87,9 @@ button.button_common {
   text-align: left;
   text-transform: uppercase;
   color: #ffffff;
+  
 }
-.button_common .bt_signature > span {
+.in_button_span_head {
   font: 0.64rem 'OpenSans-bold', 'Arial', monospace;
   font-weight: bold;
 }
@@ -98,10 +97,6 @@ button.button_common {
   width: 8%;
   margin-right: 8px;
   fill: #ffffff;
-}
-.wrapper_download_button {
-  height: 170px;
-  padding: 0;
 }
 /* athlets block*/
 
@@ -311,7 +306,7 @@ footer.footer {
   width: 64%;
   height: 64%;
   margin: auto;
-  fill: #fffffff;
+  fill: #ffffff;
 }
 .footer__logo_end > svg {
   display: block;
