@@ -636,6 +636,9 @@ footer.footer {
     line-height: 25px;
     letter-spacing: 2.5px;
   }
+  .picture_athlets {
+    top: -5%;
+  }
   .block__connection {
     margin-top: 0;
     padding-top: 3.9%;
