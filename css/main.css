@@ -54,7 +54,7 @@ header.header {
   margin-bottom: 26%;
   flex-wrap: wrap;
 }
-h1.header__main_title {
+.header__main_title {
   font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
   letter-spacing: 1.5px;
@@ -67,7 +67,7 @@ h1.header__main_title {
   margin-left: 15.5%;
   line-height: 125%;
 }
-button.button_common {
+.button_common {
   display: flex;
   width: 87.5%;
   max-width: 300px;
@@ -91,7 +91,7 @@ button.button_common {
   font: .64rem 'OpenSans-bold', 'Arial', monospace;
   font-weight: bold;
 }
-svg.image_button_svg {
+.image_button_svg {
   width: 8%;
   margin-right: 8px;
   fill: #ffffff;
@@ -103,7 +103,7 @@ svg.image_button_svg {
 
 /*athlets block*/
 
-h2.title__athlets {
+.title__athlets {
   width: 90%;
   height: 80px;
   margin: 0 auto;
@@ -126,7 +126,7 @@ img, source {
   padding-right: 6.25%;
   padding-left: 6.25%;
 }
-p.common__block_text {
+.common__block_text {
   padding-top: 18px;
   font: 1.2rem 'OpenSans-light', 'Arial', monospace;
   line-height: 118%;
@@ -148,11 +148,11 @@ p.common__block_text {
   padding-bottom: 18%;
   background-color: #5e42b0;
 }
-p.block__growth_text {
+.block__growth_text {
   letter-spacing: 1.5px;
 }
 /*number with the bottom line*/
-div.number {
+.number {
   position: relative;
   padding-top: 5px;
 }
@@ -180,7 +180,7 @@ div.number {
   border-radius: 1px;
   background-color: #5e42b0;
 }
-p.block__growth_text {
+.block__growth_text {
   color: #ffffff;
 }
 .number__growth span::after {
@@ -192,7 +192,7 @@ p.block__growth_text {
 
 
 /* players block*/
-h2.title__players {
+.title__players {
   width: 90%;
   margin: 0 auto;
   padding-top: 8px;
@@ -220,7 +220,7 @@ h2.title__players {
   padding-bottom: 11%;
   background-color: #090c35;
 }
-p.block__growth_pl_text {
+.block__growth_pl_text {
   color: #fff;
 }
 
@@ -265,7 +265,7 @@ p.block__growth_pl_text {
   width: 90%;
   margin: 0 auto;
 }
-h3.subtitle_content_block {
+.subtitle_content_block {
   width: 100%;
   padding-top: 7%;
   font: bold 2.24rem 'OpenSans-bold', 'Arial', monospace;
@@ -274,7 +274,7 @@ h3.subtitle_content_block {
   text-transform: uppercase;
   color: #e7e7e7;
 }
-p.text__content_block {
+.text__content_block {
   margin-top: 6%;
   margin-bottom: 27%;
   font: 1.18rem 'OpenSans-light', 'Arial', monospace;
@@ -288,7 +288,7 @@ footer.footer {
   background: linear-gradient(rgba(18, 17, 52, .9), rgba(18, 17, 52, .9)), url(../images/game_767.jpg) 50% 10% no-repeat;
   background-size: cover, 140%;
 }
-h4.footer_subtitle__head {
+.footer_subtitle__head {
   margin: 0 auto;
   font: bold 2.56rem 'OpenSans-bold', 'Arial', monospace;
   font-stretch: ultra-expanded;
@@ -297,7 +297,7 @@ h4.footer_subtitle__head {
   text-transform: uppercase;
   color: #fff;
 }
-p.footer_subtitle__text {
+.footer_subtitle__text {
   margin-bottom: 80px;
   font: 1.12rem 'OpenSans-light', 'Arial', monospace;
   text-align: center;
@@ -318,13 +318,13 @@ p.footer_subtitle__text {
 .footer__logo_end {
   margin-top: 25%;
 }
-svg.logo__footer_svg {
+.logo__footer_svg {
   width: 64%;
   height: 64%;
   margin: auto;
   fill: #fff;
 }
-svg.footer__logo_end_svg {
+.footer__logo_end_svg {
   display: block;
   width: 42%;
   max-width: 265px;
@@ -348,7 +348,7 @@ svg.footer__logo_end_svg {
   .wrapper__logo {
     margin-bottom: 18.8%;
   }
-  span.in_letter_m_logo {
+  .in_letter_m_logo {
     margin-top: 0;
   }
   .wrapper__describe {
@@ -358,7 +358,7 @@ svg.footer__logo_end_svg {
     margin-bottom: 37.5%;
     padding-top: 0;
   }
-  h1.header__main_title {
+  .header__main_title {
     margin-left: 10%;
     font: bold 3.2rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 3px;
@@ -371,7 +371,7 @@ svg.footer__logo_end_svg {
     -webkit-justify-content: space-between;
             justify-content: space-between;
   }
-  button.button_common {
+  .button_common {
     max-width: 310px;
     height: 70px;
     justify-content: flex-start;
@@ -379,7 +379,7 @@ svg.footer__logo_end_svg {
   .in_button_span_head {
     font: .7rem 'OpenSans-bold', 'Arial', monospace;
   }
-  svg.image_button_svg {
+  .image_button_svg {
     width: 15%;
     margin-right: 8%;
     margin-left: 12%;
@@ -399,7 +399,7 @@ svg.footer__logo_end_svg {
   section.athlets {
     position: relative;
   }
-  h2.title__athlets {
+  .title__athlets {
     width: 50%;
     height: 80px;
     margin: 0;
@@ -418,7 +418,7 @@ svg.footer__logo_end_svg {
     padding-right: 0;
     padding-left: 38%;
   }
-  p.common__block_text {
+  .common__block_text {
     padding-top: 5%;
     font: .8rem 'OpenSans-light', 'Arial', monospace;
     line-height: 25px;
@@ -431,12 +431,12 @@ svg.footer__logo_end_svg {
   }
 
   /*number with the bottom line*/
-  div.number {
+  .number {
     position: relative;
     width: 70%;
     padding-top: 5px;
   }
-  div.number h3 {
+  .number h3 {
     font-size: 1.6rem;
     letter-spacing: 2px;
   }
@@ -469,7 +469,7 @@ svg.footer__logo_end_svg {
   section.players {
     position: relative;
   }
-  h2.title__players {
+  .title__players {
     width: 50%;
     margin: 0;
     margin-top: 7%;
@@ -527,11 +527,11 @@ svg.footer__logo_end_svg {
     width: 95%;
     margin: 0 auto;
   }
-  h3.subtitle_content_block {
+  .subtitle_content_block {
     font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 0;
   }
-  p.text__content_block {
+  .text__content_block {
     margin-top: 2%;
     margin-bottom: 12%;
     font: 1.2rem 'OpenSans-bold', 'Arial', monospace;
@@ -543,12 +543,12 @@ svg.footer__logo_end_svg {
     background: linear-gradient(rgba(18, 17, 52, .9), rgba(18, 17, 52, .9)), url(../images/game_1280.jpg) 50% 10% no-repeat;
     background-size: cover, 240%;
   }
-  h4.footer_subtitle__head {
+  .footer_subtitle__head {
     margin: 0 auto;
     font: bold 4rem 'OpenSans-bold', 'Arial', monospace;
     letter-spacing: 4px;
   }
-  p.footer_subtitle__text {
+  .footer_subtitle__text {
     margin-bottom: 36.5%;
     font: 1.8rem 'OpenSans-light', 'Arial', monospace;
     letter-spacing: 0;
@@ -558,10 +558,10 @@ svg.footer__logo_end_svg {
     height: 135px;
     margin-bottom: 55px;
   }
-  h3.subtitle__find_contact {
+  .subtitle__find_contact {
     padding-top: 10%;
   }
-  svg.footer__logo_end_svg {
+  .footer__logo_end_svg {
     width: 27%;
     margin-top: -30px;
   }
@@ -573,7 +573,7 @@ svg.footer__logo_end_svg {
   }
 }
 
-/***********************************responsive 961 to 960 px************************************************************************/
+/***********************************responsive 961 to ... px************************************************************************/
 
 @media (min-width: 961px) {
   html {
@@ -588,7 +588,7 @@ svg.footer__logo_end_svg {
   header.header {
     width: 100%;
     background: linear-gradient(rgba(18, 17, 52, .9), rgba(18, 17, 52, .9)), url(../images/football_1920.jpg) 50% 10% no-repeat;
-    background-size: cover, 140%;
+    background-size: cover, 160%;
   }
   .wrapper__logo {
   	margin-bottom: 0%;
@@ -598,12 +598,6 @@ svg.footer__logo_end_svg {
     max-width: 1920px;
     margin-top: 13%;
     margin-bottom: 8.8%;
-  }
-  h1.header__main_title {
-  	width: 100%;
-  	margin-left: 4.8%;
-    font-size: 4rem;
-    letter-spacing: 4px;
   }
   .in_letter_m_logo {
   	margin-left: 27.5%;
@@ -624,22 +618,17 @@ svg.footer__logo_end_svg {
   section.athlets {
     position: relative;
   }
-  h2.title__athlets {
+  .title__athlets {
     margin-top: 4%;
     margin-bottom: 2%;
     padding-left: 52.5%;
     font-size: 3.5555555555rem;
   }
-  .picture_athlets {
-    position: absolute;
-    top: -5%;
-    left: 20%;
-  }
   .common__block {
     width: 100%;
     padding-left: 52.3%;
   }
-  p.common__block_text {
+  .common__block_text {
     padding-top: 1.5%;
     font-size: .8888888888888rem;
     line-height: 25px;
@@ -653,12 +642,12 @@ svg.footer__logo_end_svg {
   }
 
   /*number with the bottom line*/
-  div.number {
+  .number {
     position: relative;
     width: 70%;
     padding-top: 5px;
   }
-  div.number h3 {
+  .number h3 {
     font-size: 1.6rem;
     letter-spacing: 2px;
   }
@@ -687,16 +676,14 @@ svg.footer__logo_end_svg {
   }
   /*players block style*/
 
-  h2.title__players {
+  .title__players {
     width: 50%;
     margin-top: 4%;
     padding-left: 9%;
     font-size: 3.5555555555rem;
   }
-
   .picture_players {
-    top: -6%;
-    right: 6.4%;
+  	right: -450px;
   }
   .block__connection_pl {
     padding-top: 4%;
@@ -704,7 +691,7 @@ svg.footer__logo_end_svg {
     padding-bottom: 2%;
     padding-left: 9.5%;
   }
-  p.block__connection_pl_text {
+  .block__connection_pl_text {
     padding-top: 3%;
   }
   .block__collaboration_pl {
@@ -713,7 +700,7 @@ svg.footer__logo_end_svg {
     padding-bottom: 3%;
     padding-left: 9.5%;
   }
-  p.block__collaboration_pl_text {
+  .block__collaboration_pl_text {
     padding-top: 3%;
   }
   .growth_pl {
@@ -738,13 +725,13 @@ svg.footer__logo_end_svg {
     padding-right: 2em;
   }
   .number__absolute_block {
-    bottom: calc(60% - 77.5px);
-    left: calc(50% - 77.5px);
-    width: 155px;
-    height: 155px;
+    bottom: calc(60% - 60px);
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
   }
   .subtitle__be_active {
-  	
+  	font-size: 2rem;
   }
   .be_active__image {
     display: block;
@@ -784,36 +771,48 @@ svg.footer__logo_end_svg {
   .content__block {
     width: 50%;
   }
-  h3.subtitle_content_block {
+
+
+
+
+
+
+
+
+
+
+
+
+  .subtitle_content_block {
     width: 90%;
-    padding-top: 22%;
+    padding-top: 15%;
     padding-left: 13%;
-    font-size: 3.5555555rem;
+    font-size: 2.5rem;
     letter-spacing: 0;
   }
   .number_work_it {
     position: absolute;
   }
-  p.text__content_block {
+  .text__content_block {
     width: 90%;
     padding-top: 10%;
     margin-bottom: 0;
     padding-left: 13%;
-    font: 1.2rem 'OpenSans-light', 'Arial', monospace;
+    font: 1rem 'OpenSans-light', 'Arial', monospace;
     line-height: 30px;
   }
-  p.text__find_contact {
+  .text__find_contact {
   	padding-top: 3%;
-    padding-left: 19%;
+    padding-left: 13%;
   }
-  h3.subtitle__find_contact {
-  	padding-top: 24.5%;
-    padding-left: 19%;
+  .subtitle__find_contact {
+  	padding-top: 15%;
+    padding-left: 13%;
   }
-  h3.subtitle__work_it {
-  	padding-top: 26%;
+  .subtitle__work_it {
+  	padding-top: 15%;
   }
-  p.text__work_it {
+  .text__work_it {
   	margin-top: 0;
   	padding-top: 8%;
   }
@@ -829,7 +828,7 @@ svg.footer__logo_end_svg {
   }
   .footer__wrapper_logo {
     display: flex;
-    width: 48%;
+    width: 690px;
     margin: 0 auto;
     margin-bottom: 6.3em;
     padding-left: .56em;
@@ -844,33 +843,109 @@ svg.footer__logo_end_svg {
         -ms-flex-direction: column;
     align-items: flex-start;
   }
-
-  h4.footer_subtitle__head {
+  .footer_subtitle__head {
     display: block;
     width: 100%;
     margin: 0;
     margin-top: -5px;
-    font-size: 3.5555555rem;
+    font-size: 2.7rem;
     letter-spacing: 4px;
   }
-  p.footer_subtitle__text {
+  .footer_subtitle__text {
     margin: 0;
     padding: 0;
-    font-size: 1.3333333rem;
+    font-size: 0.9rem;
     letter-spacing: 0;
   }
   .footer__logo {
-    width: 135px;
-    height: 135px;
+    width: 90px;
+    height: 90px;
     margin: 0;
   }
   .footer__logo_end {
     margin-top: 12.5%;
     padding-bottom: 2em;
   }
-  svg.footer__logo_end_svg {
+  .footer__logo_end_svg {
   	width: 17%;
     padding: 0;
     margin-top: 0;
+  }
+}
+@media (min-width: 1180px) {
+	header.header {
+    width: 100%;
+    background: linear-gradient(rgba(18, 17, 52, .9), rgba(18, 17, 52, .9)), url(../images/football_1920.jpg) 50% 10% no-repeat;
+    background-size: cover, 140%;
+  }
+}
+@media (min-width: 1500px) {
+	.header__main_title {
+  	width: 100%;
+  	margin-left: 4.8%;
+    font-size: 4rem;
+    letter-spacing: 4px;
+  }
+	.picture_athlets {
+    position: absolute;
+    top: -5%;
+    left: 20%;
+  }
+  .picture_players {
+    top: -6%;
+    right: 6.4%;
+  }
+  .number__absolute_block {
+    bottom: calc(60% - 77.5px);
+    left: calc(50% - 77.5px);
+    width: 155px;
+    height: 155px;
+  }
+  .subtitle_content_block {
+    width: 90%;
+    padding-top: 22%;
+    padding-left: 13%;
+    font-size: 3.5555555rem;
+    letter-spacing: 0;
+  }
+  .number_work_it {
+    position: absolute;
+  }
+  .text__content_block {
+    width: 90%;
+    padding-top: 10%;
+    margin-bottom: 0;
+    padding-left: 13%;
+    font: 1.2rem 'OpenSans-light', 'Arial', monospace;
+    line-height: 30px;
+  }
+  .subtitle__find_contact {
+  	padding-top: 24.5%;
+    padding-left: 19%;
+  }
+  .text__find_contact {
+  	padding-top: 3%;
+    padding-left: 19%;
+  }
+  .subtitle__work_it {
+  	padding-top: 26%;
+  }
+  .text__work_it {
+  	margin-top: 0;
+  	padding-top: 8%;
+  }
+  .footer__wrapper_logo {
+    width: 900px;
+  }
+  .footer_subtitle__head {
+    font-size: 3.5555555rem;
+  }
+  .footer_subtitle__text {
+    font-size: 1.3333333rem;
+  }
+  .footer__logo {
+    width: 135px;
+    height: 135px;
+    margin: 0;
   }
 }
