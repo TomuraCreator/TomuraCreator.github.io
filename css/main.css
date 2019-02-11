@@ -7,7 +7,6 @@
 }
 body {
   min-width: 320px;
-  overflow: hidden;
 }
 html {
   font-size: 12.5px;
@@ -470,6 +469,7 @@ footer.footer {
 
   section.players {
     position: relative;
+    overflow: hidden;
   }
   .title__players {
     width: 50%;
