@@ -215,6 +215,7 @@ img, source {
 .block__collaboration_pl {
   padding-top: 16%;
   padding-bottom: 12%;
+  background-color: #f5f6f7;
 }
 .growth_pl {
   padding-bottom: 11%;
@@ -771,18 +772,6 @@ footer.footer {
   .content__block {
     width: 50%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
   .subtitle_content_block {
     width: 90%;
     padding-top: 15%;
