@@ -43,7 +43,7 @@ header.header {
   max-width: 201px;
   height: 95px;
   margin: 0 auto;
-  fill: #fff;
+  fill: #ffffff;
 }
 .wrapper__describe {
   display: flex;
@@ -59,7 +59,7 @@ header.header {
   font-stretch: ultra-expanded;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
 }
 .in_letter_m_logo {
   display: block;
@@ -130,6 +130,7 @@ header.header {
   text-transform: uppercase;
   color: #e7e7e7;
 }
+
 .picture_athlets {
   display: block;
   margin: 0 auto;
@@ -238,7 +239,7 @@ img, source {
   background-color: #090c35;
 }
 .block__growth_pl_text {
-  color: #fff;
+  color: #ffffff;
 }
 
 /***************  be active  /////  find contact /////  block work it  *****************/
@@ -263,7 +264,7 @@ img, source {
   width: 14px;
   margin: auto;
   font: bold 1.12rem 'OpenSans-bold', 'Arial', monospace;
-  color: #fff;
+  color: #ffffff;
 }
 .number__absolute_block > span::after {
   position: absolute;
@@ -312,7 +313,7 @@ footer.footer {
   text-align: center;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
 }
 .footer_subtitle__text {
   margin-bottom: 80px;
@@ -339,7 +340,7 @@ footer.footer {
   width: 64%;
   height: 64%;
   margin: auto;
-  fill: #fff;
+  fill: #ffffff;
 }
 .footer__logo_end_svg {
   display: block;
@@ -347,7 +348,7 @@ footer.footer {
   max-width: 265px;
   margin: auto;
   padding-bottom: 5%;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 /***********************media requires************************************/
@@ -584,7 +585,7 @@ footer.footer {
     margin-top: -30px;
   }
   .footer__logo svg {
-    fill: #fff;
+    fill: #ffffff;
   }
   .footer__logo_end {
     margin-top: 3.7em;
@@ -698,7 +699,7 @@ footer.footer {
   /*players block style*/
 
   .title__players {
-    width: 50%;
+
     margin-top: 4%;
     padding-left: 9%;
     font-size: 3.5555555555rem;
